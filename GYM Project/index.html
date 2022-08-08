@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Samrath Fitness</title> 
+    <link rel="icon" type="image/x-icon" href="img/gymlogo.jpg">
+
+    <style>
+     /* CSS reset */
+     body{
+        margin:0px;
+        color: white;
+        padding: 0px;
+        background-color: black;
+        background-size: cover;
+        background-repeat: no-repeat;
+     }
+     
+     .left {
+        display: inline-block;
+        /* border: 2px solid red; */
+        position: absolute;
+        left: 60px;
+        padding: 20px;
+        top: 30px;
+    }
+
+     /* .left{
+        border:2px solid red;
+        display: inline-block;
+            top: 20px;
+
+        left: 34px;
+
+     } */
+     .mid{
+        display: block;
+      /* border: 2px solid green; */
+      width: 33%;
+      margin: 30px auto;
+
+
+     }
+     .right{
+        position: absolute;
+        top:30px;
+        right: 34px;
+        /* border:2px solid yellow; */
+        display: inline-block;
+
+     }
+
+     .navbar{
+        display: inline-block;
+
+     }
+     .navbar li{
+        display: inline-block;
+        font-size: 25px;
+     }
+     .navbar li a {
+        color: white;
+        padding: 34px 5px;
+        text-decoration: none;
+     }
+     .navbar li a:hover, .navbar li a.active {
+        text-decoration: underline;
+        color: gray;
+     }
+     .left img{
+        width: 136px;
+        filter: invert(100%);
+     }
+     .left div {
+        text-align: center;
+       
+     }
+     .container button:hover{
+        background-color: blue;
+     }
+    
+     .btn{
+        margin: 0px 9px;
+        color: white;
+        background-color: black;
+        padding:4px 14px;
+        border: 10px;
+        border-radius: 12px;
+        font-size: 20px;
+        border: 2px solid grey;
+        cursor: pointer;
+     }
+     .btn :hover{
+        color: red;
+     }
+     .container{
+        border: 2px solid white;
+        margin: 106px 82px;
+        padding: 75px;
+        width: 33%;
+        border-radius: 28px;
+        
+     }
+     .form-group input {
+        text-align: center;
+        display: block;
+        width:75% ;
+        font-size: 12px;
+        padding: 12px;
+        margin: 11px auto;
+        border-radius: 12px;
+        border:2px solid black;
+
+     }
+     .container h1{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        text-align: center;
+        padding:12px;
+
+     }
+     .container button{
+        display: block;
+        width: 23%;
+        color: white;
+        margin: auto;
+
+     }
+  #img1{
+    float: right;
+    width: 750px;
+    height:512px;
+    margin-top: 73px;
+    margin-right: 66px;
+  }
+    
+    </style>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/logo.png">
+            <div>Samrath Fitness</div>
+
+        </div>
+            
+     <!-- Mid box for navbar -->
+     <div class="mid">
+        <ul class="navbar">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Fitness Calculator</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </div>
+        <div class="right">
+            
+            <button class="btn">
+            Call Us Now
+            </button>
+            <button class="btn">
+                Email Us
+            </button>
+            
+        </div>
+        <!-- <div>
+            <img src="img/gwallpaper.jpg" alt="" id="img1">
+        </div> -->
+    </header>
+    <div class="container">
+        <h1>Join the best gym of Surat now </h1>
+        <form action="nbhatt909@gmail.com">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+                
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+                
+            </div> <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+                
+            </div> <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+                 
+
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Phone Number">
+                    
+                </div>
+
+                
+            </div>
+            
+            <button class="btn">Submit</button>
+
+        </form>
+        
+    </div>
+  
+    
+</body>
+</html>
